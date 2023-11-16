@@ -2,11 +2,7 @@ import os
 #os.system("pkg install sox -y")
 #os.system("play op.mp3")
 #os.system("pkg install espeak")
-import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
-import requests,zlib,platform
-from rich.table import Table as me
-from rich.console import Console as sol
+import requests,bs4,json,os,sys,random,dat Console as sol
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
@@ -76,9 +72,9 @@ for x in range(10):
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
+	i2; en-us) AppleWebKit/537.36 (KHTML, like Gecko) Dolfin/'
 	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
+	
 	l='Mobile/18G82 [FBAN/FBIOS;FBAV/333.0.0.30.109;FBBV/313309308;FBDV/iPhone10,5;FBMD/iPhone;FBSN/iOS;FBSV/14.7.1;FBSS/3;FBID/phone;FBLC/pt_BR;FBOP/5;FBRV/315505842]'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 
